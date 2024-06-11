@@ -14,6 +14,10 @@
 		24C802602C18488D00D87430 /* BreweriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8025F2C18488D00D87430 /* BreweriesTests.swift */; };
 		24C8026A2C18488D00D87430 /* BreweriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C802692C18488D00D87430 /* BreweriesUITests.swift */; };
 		24C8026C2C18488D00D87430 /* BreweriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8026B2C18488D00D87430 /* BreweriesUITestsLaunchTests.swift */; };
+		24C8027C2C184C9900D87430 /* BreweryLightweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8027B2C184C9900D87430 /* BreweryLightweight.swift */; };
+		24C8027E2C184D3300D87430 /* BreweryWebAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8027D2C184D3300D87430 /* BreweryWebAdaptor.swift */; };
+		24C802802C18557F00D87430 /* BreweryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8027F2C18557F00D87430 /* BreweryDetailView.swift */; };
+		24C802822C18562C00D87430 /* BrewerySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C802812C18562C00D87430 /* BrewerySingle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		24C802652C18488D00D87430 /* BreweriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreweriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C802692C18488D00D87430 /* BreweriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesUITests.swift; sourceTree = "<group>"; };
 		24C8026B2C18488D00D87430 /* BreweriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24C8027B2C184C9900D87430 /* BreweryLightweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryLightweight.swift; sourceTree = "<group>"; };
+		24C8027D2C184D3300D87430 /* BreweryWebAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryWebAdaptor.swift; sourceTree = "<group>"; };
+		24C8027F2C18557F00D87430 /* BreweryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryDetailView.swift; sourceTree = "<group>"; };
+		24C802812C18562C00D87430 /* BrewerySingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerySingle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		24C8024D2C18488B00D87430 /* Breweries */ = {
 			isa = PBXGroup;
 			children = (
+				24C8027A2C184C4200D87430 /* Model */,
+				24C802792C184C3E00D87430 /* View */,
+				24C802782C184C3700D87430 /* Web */,
 				24C8024E2C18488B00D87430 /* BreweriesApp.swift */,
 				24C802502C18488B00D87430 /* ContentView.swift */,
 				24C802522C18488D00D87430 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				24C8026B2C18488D00D87430 /* BreweriesUITestsLaunchTests.swift */,
 			);
 			path = BreweriesUITests;
+			sourceTree = "<group>";
+		};
+		24C802782C184C3700D87430 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				24C8027D2C184D3300D87430 /* BreweryWebAdaptor.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		24C802792C184C3E00D87430 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24C8027F2C18557F00D87430 /* BreweryDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24C8027A2C184C4200D87430 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24C8027B2C184C9900D87430 /* BreweryLightweight.swift */,
+				24C802812C18562C00D87430 /* BrewerySingle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C802802C18557F00D87430 /* BreweryDetailView.swift in Sources */,
 				24C802512C18488B00D87430 /* ContentView.swift in Sources */,
+				24C8027C2C184C9900D87430 /* BreweryLightweight.swift in Sources */,
 				24C8024F2C18488B00D87430 /* BreweriesApp.swift in Sources */,
+				24C802822C18562C00D87430 /* BrewerySingle.swift in Sources */,
+				24C8027E2C184D3300D87430 /* BreweryWebAdaptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
